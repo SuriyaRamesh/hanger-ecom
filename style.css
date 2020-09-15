@@ -1,0 +1,126 @@
+.navbar, .search-bar, .has-search input {
+    background-color: #000000;
+}
+
+.search-bar ::placeholder {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.has-search {
+    width: 50%;
+}
+
+.has-search input {
+    border-radius: 0;
+    padding: 30px 0;
+    padding-left: 165px;
+    padding-right: 125px;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.has-search input:focus {
+    background-color: #000000;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+    font-style: italic;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+/*    z-index: 2;*/
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    pointer-events: none;
+    color: #ffffff;
+    margin-left: 110px;
+}
+
+
+/* *********** Yello Hanger ************ */
+
+.login-row {
+    background-color: #000000;
+}
+
+.yellow-hanger {
+    background-image: url("images/yellow_hanger.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.yellow-hanger p {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+/*    padding-bottom: 25px;*/
+}
+
+.yellow-hanger .btn-row {
+    margin: 0 15%;
+    padding: 4% 0%;
+}
+
+.yellow-hanger button, .yellow-hanger button:hover, .designs .btn, .designs .btn:hover {
+    border-radius: 0;
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: none;
+}
+/* *********** design-of-the-day ************ */
+
+.design-of-the-day-1 {
+    background-image: url("images/todays-design.png");
+    background-repeat: no-repeat;
+/*    background-size: cover;*/
+    background-position: center;
+    height: 610px;
+}
+
+.design-of-the-day-2 {
+    background-image: url("images/you-can-design-your-tshirts.png");
+    background-repeat: no-repeat;
+/*    background-size: cover;*/
+    background-position: center;
+    height: 610px;
+}
+
+/* *********** Referal ************ */
+
+.referal {
+    background-image: url("images/referal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    padding-bottom: 15px;
+}
+
+/* *********** Multi image caurosel ************ */
+
+.col-2-half {
+    width: 16.66%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    color: #aaa;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+/* *********** Featured Tees ************ */
+
+.featured-tees img {
+    width: 100%;
+}
